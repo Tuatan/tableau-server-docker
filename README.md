@@ -1,4 +1,4 @@
-# tableau-server-beta-docker
+# Docker for Tableau Server for Linux - Single node
 
 That is the fork of the original project created by [@tfoldi](https://twitter.com/tfoldi).
 
