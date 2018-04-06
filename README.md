@@ -1,40 +1,15 @@
 # tableau-server-beta-docker
-Dockerfile for Tableau Server on Linux - Single Node. 
 
-## Build
-   
-Be sure that your `EDITOR` environment variable is set then simply call `make`:
+That is the fork of the original project created by [@tfoldi](https://twitter.com/tfoldi).
 
-    make
-    
-## Run image
+### Prerequisites
 
-To boot (run) Tableau Server container simply execute:
+- Docker has be installed. Run `docker version` to verify.
+- Since Tableau Server itself has some requirements to the host machine, you need to change [the advanced settings](https://docs.docker.com/docker-for-windows/#advanced) for docker to grant it 8Gb of memory and 8 cores of CPU.
 
-    make run
+### Build
 
-It will call a `systemd` `/sbin/init` on the image and configure, register and start tableau server
-on the first start.
-
-To connect from a different terminal to the server itself use
-
-    make exec
-    
-Pro tipp: If you commit the image state after the first execution (tableau configuration and registration) you don't
-have to wait minutes next time.
-    
-## Author
-
-These ten lines of code done by me, [@tfoldi](https://twitter.com/tfoldi)
-
-
-## Install Demo
-[Console Video](https://asciinema.org/a/oJ7tTN0URdtF9UqpCRRGJzKvT/embed?)
-    
-## Blog from tfoldi
-[Blog](https://databoss.starschema.net/tableau-server-linux-docker-container/)
-
-## Tableau docs
+### Tableau docs
 
 - [Introducing Tableau Server on Linux](https://onlinehelp.tableau.com/current/server-linux/en-us/release_notes_linux.htm)
 
