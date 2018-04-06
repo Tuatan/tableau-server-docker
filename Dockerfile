@@ -4,7 +4,7 @@
 FROM centos/systemd
 
 # who's your boss?
-MAINTAINER "Tamas Foldi" <tfoldi@starschema.net>
+LABEL maintainer="sbaranchenkov@tableau.com"
 
 # this is the version what we're building
 ENV TABLEAU_VERSION="10.5.2" \
