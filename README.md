@@ -9,6 +9,10 @@ That is the fork of the original project created by [@tfoldi](https://twitter.co
 
 ### Build
 
+```bash
+  docker build -t tfoldi/tableau-server:release .
+```
+
 ### Tableau docs
 
 - [Introducing Tableau Server on Linux](https://onlinehelp.tableau.com/current/server-linux/en-us/release_notes_linux.htm)
