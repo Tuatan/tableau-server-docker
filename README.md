@@ -13,6 +13,12 @@ That is the fork of the original project created by [@tfoldi](https://twitter.co
   docker build -t tfoldi/tableau-server:release .
 ```
 
+### Run
+
+```bash
+  docker run -ti --privileged -v /sys/fs/cgroup:/sys/fs/cgroup -v /run -p 80 tfoldi/tableau-server:release
+```
+
 ### Tableau docs
 
 - [Introducing Tableau Server on Linux](https://onlinehelp.tableau.com/current/server-linux/en-us/release_notes_linux.htm)
