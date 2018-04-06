@@ -5,7 +5,7 @@ That is the fork of the original project created by [@tfoldi](https://twitter.co
 ### Prerequisites
 
 - Docker has be installed. Run `docker version` to verify.
-- Since Tableau Server itself has some requirements to the host machine, you need to change [the advanced settings](https://docs.docker.com/docker-for-windows/#advanced) for docker to grant it 8Gb of memory and 8 cores of CPU.
+- Since Tableau Server itself has some requirements to the host machine, you need to change [the advanced settings](https://docs.docker.com/docker-for-windows/#advanced) for docker to grant it at least 8Gb of memory and 8 cores of CPU.
 
 ### Build
 
