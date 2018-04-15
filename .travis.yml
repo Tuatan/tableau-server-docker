@@ -4,4 +4,4 @@ services:
   - docker
 
 before_install:
-  - docker build -t tuatan/tableau-server:0.0.1 .
+  - docker build --cpuset-cpus="0-7" -t tuatan/tableau-server:0.0.1 .
